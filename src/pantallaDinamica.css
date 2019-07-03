@@ -134,41 +134,20 @@
 }
 
 .title-1 {
- 
-  /* font-size: 270%; */
-  font-size: 370%;
+  font-size: 270%;
+  /* font-size: 370%; */
 }
 
 .title {
   color: yellow;
   display: flex;
-  top: 30%;
+  top: 40%;
   left: 5%;
   position:fixed; 
   z-index: 100;
-  /* font-size: 300%; */
   text-align: center;
   width:40%;
 }
-/* .title-2 {
-  color: yellow;
-  display: flex;
-  top: 40%;
-  right: 69%;
-  position:fixed; 
-  z-index: 100;
-  font-size: 310%;
-}
-
-.title-3 {
-  color: yellow;
-  display: flex;
-  top: 51%;
-  right: 57%;
-  position:fixed; 
-  z-index: 100;
-  font-size: 310%;
-} */
 
 .contenedor {
   font-family: 'DM Serif Display', serif;
