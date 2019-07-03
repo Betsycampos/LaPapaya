@@ -166,12 +166,18 @@
 .contenedor-css {
   margin: auto;
   display: table;
+  display: flex;
+  top: 51%;
+  right: 1%;
+  position:fixed; 
+  z-index: 100;
+  font-size: 300%;
 
 }
 
 h1 {
   float: left;
-  color:black;
+  color:white;
   position: relative;
 
 }
@@ -180,7 +186,7 @@ h1 {
   position: absolute;
   right: 0;
   width: 0;
-  background: white;
+  background: transparent;
   border-left: 1px solid black;
   animation: maquina 5s infinite alternate steps(10);
 
